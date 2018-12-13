@@ -7,7 +7,7 @@ public class uploadDB {
 	private Connection conn;
 	public uploadDB() {
 		try {
-			String dbURL="jdbc:mysql://13.125.136.38/webbabies?";
+			String dbURL="jdbc:mysql://localhost/webbabies?";
 			String dbID="root";
 			String dbPassword="dnflrkWkddldi";
 			Class.forName("com.mysql.jdbc.Driver");
